@@ -1,0 +1,14 @@
+1. 설치 
+    - npm install -g @vue/cli
+    - yarn global add @vue/cli
+
+2. 프로젝트 생성 
+    - vue create memo
+
+3. 프로젝트로 이동
+    - cd memo
+
+4. 실행
+    - npm run serve
+
+5. Memo 컴포넌트 생성 후 사용하기
