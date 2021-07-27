@@ -1,0 +1,23 @@
+1. Node.js 설치
+    - https://nodejs.org/ko/
+
+2. npm 설치
+    - Node.js 설치 시 기본 설치 
+
+3. Yarn 설치 
+    - 설치
+        command> npm install -g yarn  
+    - 버전확인 
+        yarn --version
+
+4. Visual Studio Code 설치 
+    - https://code.visualstudio.com/
+
+5. VC Code 확장요소 설치    
+    - Korean Language Pack
+    - Vetur
+    - vue VSCode snippets
+    - Live server
+    - vscode-icons
+    - auto rename tag
+    - auto close tag

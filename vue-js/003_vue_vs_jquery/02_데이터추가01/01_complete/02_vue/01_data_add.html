@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <title>Title</title>
+      <script src="../../../../libs/vue.js"></script>
+
+</head>
+<body>
+      <ul id="app">
+            <ul class="list">
+                  <li v-for="user in list">name = {{user}}</li>
+            </ul>
+
+            <div>
+                  <p>데이터 추가</p>
+                  <p>
+                        <span>name:<input type="text" class="user-name" v-model="newUser"></span><br>
+                  <p>
+                        <button class="btn-add-user" @click="addUser"> 추가</button>
+                  </p>
+            </div>
+      </div>
+
+      <script> 
+            var data = {
+                  list:["user01", "user02", "user03"],
+                  newUser:""
+            }
+
+		var vm = new Vue({
+			el: '#app',
+			data:data,
+                  methods:{
+				addUser:function(){
+                             this.list.push(this.newUser);
+                             this.newUser="";
+                              
+                        }
+                  }
+		})
+
+
+
+      </script>
+</body>
+</html>
